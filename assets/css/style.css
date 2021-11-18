@@ -104,13 +104,61 @@ section {
 /* Hero form style */
 .hero-form {
     background-color: #fce138;
-    padding: 20px;
+    margin: 0 0 -20px 0;
+    padding: 20px 10px 20px 10px;
     width: 500px;
     color: #024e76;
     border: solid 3px #024e76;
     box-shadow: 3px 3px rgb(126, 131, 56);
     position: absolute;
-    bottom: 120px;
+    bottom: 100px;
     right: 140px;
 
 }
+
+.hero-form p { 
+    margin: 5px 0 15px 0;
+}
+
+.hero-form h3 {
+    margin: 0;
+    font-size: 30px;
+
+}
+
+.form-input {
+    border: 3px groove gold;
+    font-size: 16px;
+    padding: 7px 15px;
+    display: block;
+    color:#024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow:2px 2px black;
+
+}
+
+.hero-form label {
+    margin: 0 px;
+    display: block;
+}
+
+.form-but {
+    margin: 1px 0 1px 0;
+    display: flex;
+    box-shadow:1px 1px black;
+    
+    
+}
+
+.run-but {
+    font-size: 18px;
+    color: rgb(245, 221, 6);
+    text-shadow:1px 1px black;
+    background-color: #024e76;
+    box-shadow: 2px 2px black;
+    padding: 10px 20px;
+}
+
+/* Hero styles end */
+
