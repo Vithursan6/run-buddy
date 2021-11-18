@@ -76,7 +76,7 @@ footer h2 {
 footer div {
     float: right;
     line-height: 1.5;
-    text_align: right;
+    text-align: right;
     text-shadow: 1px 1px black;
 
 }
