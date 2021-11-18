@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*more on this crazy alphanumerical value in a minute! */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #39a6b2;
+    text-shadow: 2px 2px black;
+    background-color: tomato;
+}
+
+/*apply styles to <header> */
+header{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 150px;
+    padding-right: 50px;
+    border: 10px groove rgb(64, 170, 170);
+    box-shadow:5px 5px black;
+    background-color: #39a6b2;
+    margin: 0.2px 0.2px auto;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+
+}
+
+header a {
+    text-decoration:none;
+    color: #fce138;
+    text-shadow: 3px 3px black;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-shadow: 2px 2px black;
+    
+}
