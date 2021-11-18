@@ -95,26 +95,17 @@ section {
 /* Hero style start - Primary */
 .hero {
     background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg"); 
-    height:600px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-
-}
-
-/* Hero style secondary*/
-.hero-secondary {
-    background-image: url("https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg");
+    height:150px;
+    font-size: 20px;
+    color:#fce138;
     text-align: center;
-    height: 150px;
-    font-size: 25px;
-    color: #fce138;
     text-shadow: 3px 3px black;
     background-size: cover;
     background-position: center;
     position: relative;
 
 }
+
 
 /* Hero style end */
 
