@@ -21,7 +21,7 @@ header{
     padding-bottom:5px;
     padding-left: 150px;
     padding-right: 50px;
-    border: 28px groove rgb(64, 170, 170);
+    border: 28px groove #38abb8;
     box-shadow:2px 2px black;
     background-color: #39a6b2;
     margin: 0.2px 0.2px auto;
@@ -205,11 +205,6 @@ section {
 
 /* Hero styles end */
 
-.intro1 {
-    text-align: center;
-}
-
-
 .intro1 p {
     line-height: 1.7;
     color: #39a6b2;
@@ -220,16 +215,16 @@ section {
 }
 
 .steps {
-    text-align:center;
     background: #fce138;
 }
 
 .section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
 
 }
@@ -273,7 +268,6 @@ section {
 }
 
 .trainers {
-    text-align: center;
 
 }
 
@@ -330,7 +324,6 @@ section {
 
 /* Reach out styles start */
 .contact {
-    text-align: center;
     background: #024e76;
 
 }
@@ -382,3 +375,7 @@ section {
 
 }
 
+.flex-row {
+    display: flex;
+
+}
