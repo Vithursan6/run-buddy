@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #fce138;
+    --secondar-color: #024e76;
+    --tertiary-color: #39a6b2;
+
+}
+
+
 body {
     /*more on this crazy alphanumerical value in a minute! */
     font-family: Arial, Helvetica, sans-serif;
